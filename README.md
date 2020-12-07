@@ -1,5 +1,5 @@
 # GermantoEnglishDictionary
-The project is a simulation of a dictionary application 
+GermantoEnglishDictionary project is a simulation of a dictionary application 
 with a pre-saved list of translated words and their part of speech. 
 The list of words is saved in a text file called "dictionary".
 The user can easily search for a German word and its corresponding
