@@ -1,0 +1,25 @@
+der Mann|noun|man|
+das Öl|noun|oil|
+die Frau|noun|women|
+das Fräulein|noun|Miss|
+das Mädchen|noun|girl|
+das Kind|noun|child|
+das Haus|noun|house|
+die Schule|noun|school|
+die Tür|noun|door|
+kommen|verb|to come|
+gehen|verb|to go|
+sehen|verb|to see|
+wollen|verb|to want|
+wissen|verb|to know|
+können|verb|to be able|
+vor|preposition|before|
+nach|preposition|after|
+zu|preposition|to|
+bis|preposition|until|
+ohne|preposition|without|
+eins|cardinal number|one|
+zwei|cardinal number|two|
+drei|cardinal number|three|
+hoch|adverb|high|
+gut|adjective/adverb|good|
