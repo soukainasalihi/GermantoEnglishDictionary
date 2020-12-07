@@ -2,10 +2,10 @@
 *  Student: Soukaina Salihi
 *  Course: CIT-284 Advanced C++/OOP
 *
-*  This project involves writing c++ program
-*  that allows the user to search for german words,
-*  their part of speech, and their meanning in english
-*  from a dictionary which is a file that has 25 words
+*  This project involves writing a C++ program
+*  that allows the user to search for German words,
+*  their part of speech, and their meaning in English
+*  from a dictionary, a file that has 25 words
 *  created by the programmer.
 */
 
@@ -295,19 +295,19 @@ string functionKeys(){
 			{
 			case 59:
 				cout << char(132);
-				germanInput += 'ä';
+				germanInput += 'Ã¤';
 				break;
 			case 60:
 				cout << char(129);
-				germanInput += 'ü';
+				germanInput += 'Ã¼';
 				break;
 			case 61:
 				cout << char(148);
-				germanInput += 'ö';
+				germanInput += 'Ã¶';
 				break;
 			case 62:
 				cout << char(153);
-				germanInput += 'Ö';
+				germanInput += 'Ã–';
 				break;
 			}
 		}
@@ -452,10 +452,10 @@ void getDataFromFile(wordData*&array, wordData*&arrayC, int size){
 
 			mystring.erase(std::remove(mystring.begin(), mystring.end(), '\n'), mystring.end());
 
-			replace(mystring.begin(), mystring.end(), 'ä', char(132));
-			replace(mystring.begin(), mystring.end(), 'ü', char(129));
-			replace(mystring.begin(), mystring.end(), 'ö', char(148));
-			replace(mystring.begin(), mystring.end(), 'Ö', char(153));
+			replace(mystring.begin(), mystring.end(), 'Ã¤', char(132));
+			replace(mystring.begin(), mystring.end(), 'Ã¼', char(129));
+			replace(mystring.begin(), mystring.end(), 'Ã¶', char(148));
+			replace(mystring.begin(), mystring.end(), 'Ã–', char(153));
 
 
 			if (i == 0)
